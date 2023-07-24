@@ -3,3 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main [class^="col-"]{
+    background-color: violet;
+    height: 50px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+
+.nested {
+    background-color: rosybrown;
+    height: 30px;
+}
