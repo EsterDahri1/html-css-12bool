@@ -12,7 +12,13 @@ main [class^="col-"]{
     color: white;
 }
 
+.nest{
+    width: 100%;
+}
+
 .nested {
     background-color: rosybrown;
     height: 30px;
 }
+
+

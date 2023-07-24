@@ -10,6 +10,7 @@
 <body class="debug">
     <main>
         <h2>Esercizio per casa</h2>
+
         <div class="row mb-20">
             <div class="col-1 d-flex align-items-center justify-center">1 col</div>
             <div class="col-1 d-flex align-items-center justify-center">1 col</div>
@@ -36,10 +37,10 @@
             <div class="col-6 d-flex align-items-center justify-center">6 col</div>
             <div class="col-1 d-flex align-items-center justify-center">1 col</div>
             <div class="col-6 d-flex align-items-center justify-center">
-                <div class="row">
-                    <div class="col-2 justify-center nested">
+                <div class="row nest">
+                    <div class="col-2 d-flex align-items-center justify-center nested">
                         Nested 2 col
-                    </div>
+                     </div>
                     <div class="col-2 d-flex align-items-center justify-center nested">
                        Nested 2 col
                     </div>
@@ -49,11 +50,13 @@
                 </div>
             </div>
             <div class="col-6 d-flex align-items-center justify-center">
-                <div class="col-6 d-flex align-items-center justify-center nested">
-                    Nested 6 col
-                </div>
-                <div class="col-6 d-flex align-items-center justify-center nested">
-                   Nested 6 col
+                <div class="row nest">
+                    <div class="col-6 d-flex align-items-center justify-center nested">
+                        Nested 6 col
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-center nested">
+                       Nested 6 col
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,6 +75,22 @@
             <div class="col-7"></div>
             <div class="col-6"></div>
             <div class="col-6"></div>
+        </div>
+
+        <h2>Offset</h2>
+
+        <div class="row mb-20">
+            <div class="col-1 offset-col-11"></div>
+            <div class="col-2 offset-col-10"></div>
+            <div class="col-3 offset-col-9"></div>
+            <div class="col-4 offset-col-8"></div>
+            <div class="col-5 offset-col-7"></div>
+            <div class="col-6 offset-col-6"></div>
+            <div class="col-7 offset-col-5"></div>
+            <div class="col-8 offset-col-4"></div>
+            <div class="col-9 offset-col-3"></div>
+            <div class="col-10 offset-col-2"></div>
+            <div class="col-11 offset-col-1"></div>
         </div>
     </main>
 </body>
